@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85AAE26A287003CD004A8C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE269287003CD004A8C4C /* AppDelegate.swift */; };
+		85AAE26C287003CD004A8C4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE26B287003CD004A8C4C /* SceneDelegate.swift */; };
+		85AAE26E287003CD004A8C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE26D287003CD004A8C4C /* ViewController.swift */; };
+		85AAE273287003CE004A8C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AAE272287003CE004A8C4C /* Assets.xcassets */; };
+		85AAE276287003CE004A8C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AAE274287003CE004A8C4C /* LaunchScreen.storyboard */; };
+		85AAE281287003CE004A8C4C /* comfy_foodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE280287003CE004A8C4C /* comfy_foodTests.swift */; };
+		85AAE28B287003CE004A8C4C /* comfy_foodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE28A287003CE004A8C4C /* comfy_foodUITests.swift */; };
+		85AAE28D287003CE004A8C4C /* comfy_foodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAE28C287003CE004A8C4C /* comfy_foodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85AAE27D287003CE004A8C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AAE25E287003CD004A8C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AAE265287003CD004A8C4C;
+			remoteInfo = "comfy-food";
+		};
+		85AAE287287003CE004A8C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AAE25E287003CD004A8C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AAE265287003CD004A8C4C;
+			remoteInfo = "comfy-food";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85AAE266287003CD004A8C4C /* comfy-food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "comfy-food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AAE269287003CD004A8C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85AAE26B287003CD004A8C4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85AAE26D287003CD004A8C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85AAE272287003CE004A8C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85AAE275287003CE004A8C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85AAE277287003CE004A8C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AAE27C287003CE004A8C4C /* comfy-foodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "comfy-foodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AAE280287003CE004A8C4C /* comfy_foodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfy_foodTests.swift; sourceTree = "<group>"; };
+		85AAE286287003CE004A8C4C /* comfy-foodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "comfy-foodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AAE28A287003CE004A8C4C /* comfy_foodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfy_foodUITests.swift; sourceTree = "<group>"; };
+		85AAE28C287003CE004A8C4C /* comfy_foodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comfy_foodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85AAE263287003CD004A8C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE279287003CE004A8C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE283287003CE004A8C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85AAE25D287003CD004A8C4C = {
+			isa = PBXGroup;
+			children = (
+				85AAE268287003CD004A8C4C /* comfy-food */,
+				85AAE27F287003CE004A8C4C /* comfy-foodTests */,
+				85AAE289287003CE004A8C4C /* comfy-foodUITests */,
+				85AAE267287003CD004A8C4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85AAE267287003CD004A8C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85AAE266287003CD004A8C4C /* comfy-food.app */,
+				85AAE27C287003CE004A8C4C /* comfy-foodTests.xctest */,
+				85AAE286287003CE004A8C4C /* comfy-foodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85AAE268287003CD004A8C4C /* comfy-food */ = {
+			isa = PBXGroup;
+			children = (
+				85AAE269287003CD004A8C4C /* AppDelegate.swift */,
+				85AAE26B287003CD004A8C4C /* SceneDelegate.swift */,
+				85AAE26D287003CD004A8C4C /* ViewController.swift */,
+				85AAE272287003CE004A8C4C /* Assets.xcassets */,
+				85AAE274287003CE004A8C4C /* LaunchScreen.storyboard */,
+				85AAE277287003CE004A8C4C /* Info.plist */,
+			);
+			path = "comfy-food";
+			sourceTree = "<group>";
+		};
+		85AAE27F287003CE004A8C4C /* comfy-foodTests */ = {
+			isa = PBXGroup;
+			children = (
+				85AAE280287003CE004A8C4C /* comfy_foodTests.swift */,
+			);
+			path = "comfy-foodTests";
+			sourceTree = "<group>";
+		};
+		85AAE289287003CE004A8C4C /* comfy-foodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85AAE28A287003CE004A8C4C /* comfy_foodUITests.swift */,
+				85AAE28C287003CE004A8C4C /* comfy_foodUITestsLaunchTests.swift */,
+			);
+			path = "comfy-foodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85AAE265287003CD004A8C4C /* comfy-food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AAE290287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-food" */;
+			buildPhases = (
+				85AAE262287003CD004A8C4C /* Sources */,
+				85AAE263287003CD004A8C4C /* Frameworks */,
+				85AAE264287003CD004A8C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "comfy-food";
+			productName = "comfy-food";
+			productReference = 85AAE266287003CD004A8C4C /* comfy-food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85AAE27B287003CE004A8C4C /* comfy-foodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AAE293287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-foodTests" */;
+			buildPhases = (
+				85AAE278287003CE004A8C4C /* Sources */,
+				85AAE279287003CE004A8C4C /* Frameworks */,
+				85AAE27A287003CE004A8C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AAE27E287003CE004A8C4C /* PBXTargetDependency */,
+			);
+			name = "comfy-foodTests";
+			productName = "comfy-foodTests";
+			productReference = 85AAE27C287003CE004A8C4C /* comfy-foodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85AAE285287003CE004A8C4C /* comfy-foodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AAE296287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-foodUITests" */;
+			buildPhases = (
+				85AAE282287003CE004A8C4C /* Sources */,
+				85AAE283287003CE004A8C4C /* Frameworks */,
+				85AAE284287003CE004A8C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AAE288287003CE004A8C4C /* PBXTargetDependency */,
+			);
+			name = "comfy-foodUITests";
+			productName = "comfy-foodUITests";
+			productReference = 85AAE286287003CE004A8C4C /* comfy-foodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85AAE25E287003CD004A8C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					85AAE265287003CD004A8C4C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					85AAE27B287003CE004A8C4C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 85AAE265287003CD004A8C4C;
+					};
+					85AAE285287003CE004A8C4C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 85AAE265287003CD004A8C4C;
+					};
+				};
+			};
+			buildConfigurationList = 85AAE261287003CD004A8C4C /* Build configuration list for PBXProject "comfy-food" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85AAE25D287003CD004A8C4C;
+			productRefGroup = 85AAE267287003CD004A8C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85AAE265287003CD004A8C4C /* comfy-food */,
+				85AAE27B287003CE004A8C4C /* comfy-foodTests */,
+				85AAE285287003CE004A8C4C /* comfy-foodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85AAE264287003CD004A8C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AAE276287003CE004A8C4C /* LaunchScreen.storyboard in Resources */,
+				85AAE273287003CE004A8C4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE27A287003CE004A8C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE284287003CE004A8C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85AAE262287003CD004A8C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AAE26E287003CD004A8C4C /* ViewController.swift in Sources */,
+				85AAE26A287003CD004A8C4C /* AppDelegate.swift in Sources */,
+				85AAE26C287003CD004A8C4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE278287003CE004A8C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AAE281287003CE004A8C4C /* comfy_foodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AAE282287003CE004A8C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AAE28B287003CE004A8C4C /* comfy_foodUITests.swift in Sources */,
+				85AAE28D287003CE004A8C4C /* comfy_foodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85AAE27E287003CE004A8C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AAE265287003CD004A8C4C /* comfy-food */;
+			targetProxy = 85AAE27D287003CE004A8C4C /* PBXContainerItemProxy */;
+		};
+		85AAE288287003CE004A8C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AAE265287003CD004A8C4C /* comfy-food */;
+			targetProxy = 85AAE287287003CE004A8C4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85AAE274287003CE004A8C4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AAE275287003CE004A8C4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85AAE28E287003CE004A8C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85AAE28F287003CE004A8C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85AAE291287003CE004A8C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "comfy-food/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85AAE292287003CE004A8C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "comfy-food/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85AAE294287003CE004A8C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-foodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comfy-food.app/comfy-food";
+			};
+			name = Debug;
+		};
+		85AAE295287003CE004A8C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-foodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comfy-food.app/comfy-food";
+			};
+			name = Release;
+		};
+		85AAE297287003CE004A8C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-foodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "comfy-food";
+			};
+			name = Debug;
+		};
+		85AAE298287003CE004A8C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joan.wilson.comfy-foodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "comfy-food";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85AAE261287003CD004A8C4C /* Build configuration list for PBXProject "comfy-food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AAE28E287003CE004A8C4C /* Debug */,
+				85AAE28F287003CE004A8C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AAE290287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AAE291287003CE004A8C4C /* Debug */,
+				85AAE292287003CE004A8C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AAE293287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-foodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AAE294287003CE004A8C4C /* Debug */,
+				85AAE295287003CE004A8C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AAE296287003CE004A8C4C /* Build configuration list for PBXNativeTarget "comfy-foodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AAE297287003CE004A8C4C /* Debug */,
+				85AAE298287003CE004A8C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85AAE25E287003CD004A8C4C /* Project object */;
+}
